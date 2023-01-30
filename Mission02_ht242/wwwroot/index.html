@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Mission04_ht242</title>
+
+    <link rel="icon" typeof="image/png" sizes="16x16" href="img/favicon.png" />
+
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <!--heading-->
+    <div class="titleheader">
+        <h1>Hannah</h1>
+        <img src="img/me.jpg" />
+    </div>
+
+    <!--paragraph about what im looking forward to-->
+    <h2>What I'm looking forward to</h2>
+    <p>
+        I'm looking forward to learning how to code in C# during this class! I am also just looking forward to practicing general coding skills
+        so I can be adaptive in future workplaces. Another skill I hope to become more comfortable with in this class is working with APIs.
+    </p> <br /><br />
+
+    <!--list of jobs-->
+    <h2>The top 3 jobs I want to pursue:</h2>
+    <ol>
+        <li>Data Analyst</li>
+        <li>Consutant</li>
+        <li>Web Developer</li>
+    </ol>
+
+    <!--grade calculator form-->
+    <div class="calculator">
+        <br /><br />
+        <h2>Grade Calculator</h2>
+        <p>Enter grade percentages for each category as the whole percent without the percent symbol. </p>
+        <p> For example, '90%' should be entered as '90'. </p>
+        <form>
+            <label name="assignments">
+                Assignments:
+            </label>
+            <input type="text" name="assignments" id="assignments" />
+            <br /> <br />
+
+            <label name="group">
+                Group Project:
+            </label>
+            <input type="text" name="group" id="group" />
+            <br /><br />
+
+            <label name="quizzes">
+                Quizzes:
+            </label>
+            <input type="text" name="quizzes" id="quizzes" />
+            <br /><br />
+
+            <label name="midterm">
+                Midterm Exam:
+            </label>
+            <input type="text" name="midterm" id="midterm" />
+            <br /><br />
+
+            <label name="final">
+                Final Exam:
+            </label>
+            <input type="text" name="final" id="final" />
+            <br /><br />
+
+            <label name="intex">
+                INTEX:
+            </label>
+            <input type="text" name="intex" id="intex" />
+            <br /><br />
+
+            <input type="button" id="submit" value="Calculate" />
+            <br /><br />
+            <!--display results from calculator-->
+            <h3>Final grade percentage: </h3>
+            <p id="finalpercent"></p>
+            <h3>Final letter grade: </h3>
+            <p id="finalletter"></p>
+            <br /><br />
+        </form>
+
+        
+    </div>
+
+
+    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+    <script src="js/Calculator.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

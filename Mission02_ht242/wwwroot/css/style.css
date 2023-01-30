@@ -1,0 +1,45 @@
+﻿/*Styles the body and creates a flex box*/
+body {
+    background-color: #F3F4F7;
+    font-family: Garamond;
+    display: flex;
+    flex-direction: column;
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    display: block;
+    width: 30%;
+    border-radius: 10px;
+}
+
+
+h1 {
+    font-size: 150px;
+    align-self: center;
+}
+
+/*Creates a flex box for the calculator*/
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: #C9BEBB;
+    margin-top: 4rem;
+}
+
+/*Creates a flex blox for the name and image*/
+.titleheader {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
