@@ -2,10 +2,15 @@
 body {
     background-color: #F3F4F7;
     font-family: Garamond;
+    
+}
+
+main {
     display: flex;
     flex-direction: column;
-    margin-left: 12rem;
-    margin-right: 12rem;
+    margin-left: 18rem;
+    margin-right: 18rem;
+    margin-bottom: 4rem;
 }
 
 p {
@@ -32,6 +37,9 @@ h1 {
     align-content: center;
     background-color: #C9BEBB;
     margin-top: 4rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    border-radius: 30px;
 }
 
 /*Creates a flex blox for the name and image*/
@@ -42,4 +50,34 @@ h1 {
     margin-bottom: 4rem;
     margin-top: 4rem;
     margin-bottom: 4rem;
+}
+
+nav {
+    display: flex;
+    background-color: #703D57;
+    height: 4rem;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav a {
+    color: #F3F4F7;
+    font-size: larger;
+    text-decoration: none;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+footer {
+    background-color: #402A2C;
+    display: flex;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    color: #F3F4F7;
+    margin-bottom: 0;
+    text-decoration: none;
 }

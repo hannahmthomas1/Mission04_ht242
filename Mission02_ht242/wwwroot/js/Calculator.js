@@ -46,8 +46,10 @@
     }
 
     /*return variables*/
-    $('#finalpercent').html(percentage + "%")
-    $('#finalletter').html(letter)
+    /*$('#finalpercent').html(percentage + "%")
+    $('#finalletter').html(letter)*/
 
     /*alert(percentage + "%" + "\nLetter Grade: " + letter);*/
+    alert("Final Grade Percent: " + percentage + "%")
+    alert("Final Letter Grade: " + letter)
 })

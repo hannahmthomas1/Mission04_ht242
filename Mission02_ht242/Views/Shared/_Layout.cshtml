@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+
+    <link rel="icon" typeof="image/png" sizes="16x16" href="img/favicon.png" />
+    <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav>
+        <a asp-controller="Ind" asp-action="Index">Home</a>
+        <a asp-controller="Ind" asp-action="calculator">Grade Calculator</a>
+    </nav>
+    <main>
+        <div>
+            @RenderBody()
+        </div>
+    </main>
+    <script src="~/lib/jquery/jquery-3.6.3.min.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/js/Calculator.js"></script>
+    @RenderSection("Scripts", required:false)
+
+    <footer>
+        <a href="https://www.linkedin.com/in/hannahluebke/">My Linkedin page</a>
+    </footer>
+
+</body>
+</html>
